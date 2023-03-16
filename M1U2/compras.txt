@@ -3,3 +3,4 @@ cable
 cinta
 pinza
 utp
+sfp
