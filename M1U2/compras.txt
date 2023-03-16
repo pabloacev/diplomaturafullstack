@@ -1,3 +1,4 @@
 precintos
 cable
 cinta
+pinza
