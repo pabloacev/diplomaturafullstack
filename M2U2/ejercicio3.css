@@ -1,0 +1,51 @@
+#contenedor {
+    border: 5px solid black;
+    display: inline-flex;
+   justify-content: space-between;
+
+    height: 200PX;
+    width: 1200PX;
+    
+
+    
+    
+   
+    
+    
+
+    
+    
+}
+
+#rojo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    height: 200PX;
+    width: 200PX;
+    
+
+}
+
+#azul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 200PX;
+    width: 200PX;
+
+}
+
+#verde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 200PX;
+    width: 200PX;
+
+
+}

@@ -1,0 +1,51 @@
+#contenedor {
+    border: 5px solid black;
+    display: inline-flex;
+    flex-direction: column;
+
+    height: 600PX;
+    width: 600PX;
+    
+
+    align-items: flex-end;
+   
+   
+    
+    
+
+    
+    
+}
+
+#rojo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    height: 200PX;
+    width: 200PX;
+    
+
+}
+
+#azul {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: blue;
+    height: 200PX;
+    width: 200PX;
+
+}
+
+#verde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 200PX;
+    width: 200PX;
+
+
+}
