@@ -1,0 +1,79 @@
+body{
+  margin-top: 0;
+    
+}
+#fijo {
+    position: fixed;
+    height: 300px;
+    width: 50%;
+}
+
+#verde {
+    box-shadow: 20px 2px 10px green;
+
+}
+
+#rojo {
+    box-shadow: 20px 2px 10px red;
+}
+
+#azul {
+    box-shadow: 20px 2px 10px blue;
+}
+
+#relativo {
+    height: 100px;
+    top: 350px;
+    position: relative;
+    box-shadow: 20px 4px 10px aquamarine;
+
+}
+
+#verder {
+    box-shadow: 20px 2px 10px green;
+    width: 40%;
+
+}
+
+#rojor {
+    box-shadow: 20px 2px 10px red;
+    width: 20%;
+}
+
+#azulr {
+    box-shadow: 20px 2px 10px blue;
+    width: 60%;
+}
+
+#absoluto {
+    height: 100px;
+    top: 550px;
+    width: 100%;
+    position: absolute;
+    box-shadow: 20px 4px 10px black;
+
+}
+
+#verdera {
+    box-shadow: 20px 2px 10px green;
+    width: 40%;
+    position: absolute;
+    top: 60%;
+   
+
+}
+
+#rojora {
+    box-shadow: 20px 2px 10px red;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    
+}
+
+#azulra {
+    box-shadow: 20px 2px 10px blue;
+    position: absolute;
+    width: 80%;
+    top:20%
+}
