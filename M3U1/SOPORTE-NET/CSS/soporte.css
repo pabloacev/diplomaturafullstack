@@ -12,12 +12,13 @@ line-height: 20PX;
 
 }
 header{
-    background-color: #2e64a1;
+    /*background-color: #2e64a1;*/
+    background-color: white;
     padding: 16px 0;
 }
 
 header h1 {
-    color: white;
+    color: #2e64a1;
     font-size: 40PX;
     font-weight: 100;
     font-style: italic;
@@ -69,4 +70,47 @@ footer {
     /*3rem 0*/
     margin-top: 20px;
 
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bienvenidos{
+    display: flex;
+    
+}
+.bienvenidos img {
+    border-radius: 20px;
+}
+
+main .bienvenidos .bienvenido h1 {
+    color: black;
+    font-size: 30PX;
+    font-weight: 100;
+    font-style: italic;
+   /*display: block;
+    position: relative;
+    bottom: 35PX;*/
+    margin-left: 10PX;
+    top: 5px;
+}
+.bienvenido{
+    display: block;
+   
+    padding: 5px;
+    text-align: center;}
+.trayectoria {
+    display: block;
+}
+main .trayectoria h1 {
+    color: black;
+    font-size: 20PX;
+    font-weight: 100;
+    font-style: italic;
+   /*display: block;
+    position: relative;
+    bottom: 35PX;*/
+   
 }
