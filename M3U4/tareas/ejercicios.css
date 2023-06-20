@@ -1,0 +1,31 @@
+.contenedor {
+    display: flex;
+    flex-direction:row;
+    
+}
+.contenedor2 {
+    display: flex;
+    flex-direction:column;
+  
+    
+    
+}
+
+#item1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+
+#item2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#item3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}

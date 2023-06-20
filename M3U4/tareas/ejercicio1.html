@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 M3 U4</title>
+    <link rel="stylesheet" href="ejercicios.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div id="item1">cuadrado1</div>
+        <div id="item2">cuadrado2</div>
+        <div id="item3">cuadrado3</div>
+    </div>
+    <script>
+const item1=document.getElementById('item1');
+item1.addEventListener('click',function(){
+document.body.style = 'background: blue;';
+},false);
+
+const item2=document.getElementById('item2');
+item2.addEventListener('click',function(){
+document.body.style = 'background: red;';
+},false);
+
+const item3=document.getElementById('item3');
+item3.addEventListener('click',function(){
+document.body.style = 'background: yellow;';
+},false);
+
+
+    </script>
+</body>
+
+</html>

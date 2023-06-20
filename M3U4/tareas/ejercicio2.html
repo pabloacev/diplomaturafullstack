@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2  M3 U4</title>
+    <link rel="stylesheet" href="ejercicios.css">
+
+</head>
+<body>
+    
+<DIV class="contenedor2">
+    <label > Ingrese Datos a ser contados</label>
+<textarea name="texto" id="texto" cols="30" rows="10" maxlength="1000"></textarea>
+<label id="contador" >Contado en cero.</label>
+
+</DIV>
+
+<script>
+const caracteres=document.getElementById('texto');
+caracteres.addEventListener('input', function(e) {
+    const target = e.target;
+    const longitudMax = target.getAttribute('maxlength');
+    const longitudAct = target.value.length;
+    contador.innerHTML = `${longitudAct} caracteres ingresados/De un maximo permitido de ${longitudMax}`;
+});
+
+</script>
+
+</body>
+</html>
