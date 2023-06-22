@@ -2,19 +2,19 @@ import React from 'react';
 import '../../styles/soporte.css';
 const Header = (props) => {
     return (
-       
 
 
-<header>
+
+        <header>
             <div class="holder">
-                 <img src="images/logonet2.jpg" />
-                    <h1>Soporte Tecnico de Redes</h1>
+                <img src="images/logonet2.jpg" />
+                <h1>Soporte Tecnico de Redes</h1>
             </div>
 
-            </header>
+        </header>
 
-        
-        
+
+
     );
 }
 
