@@ -2,7 +2,7 @@ import React from 'react';
 const ContactoPage = (props) => {
     return (
        
-        <main class="holder contacto">
+        <main className="holder contacto">
 
         <div>
             <h2>Contacto Rapido</h2>
@@ -31,7 +31,7 @@ const ContactoPage = (props) => {
 
         </div>
 
-        <div class="datos">
+        <div className="datos">
             <h2>Otras vias de comunicacion</h2>
             <p>Tambien puede contactarse usando los siguientes medios</p>
             <ul>

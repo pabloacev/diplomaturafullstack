@@ -2,14 +2,14 @@ import React from 'react';
 const HomePage = (props) => {
     return (
 
-<main class="holder">
+<main className="holder">
         <div>
-            <img class="logohome" src="images/home/cyberspace.jpg" alt="redlan" />
+            <img className="logohome" src="images/home/cyberspace.jpg" alt="redlan" />
         </div>
-        <div class="columnas">
+        <div className="columnas">
 
 
-            <section class="bienvenidos">
+            <section className="bienvenidos">
 
 
                 <h2>Bienvenidos</h2>
@@ -28,9 +28,9 @@ const HomePage = (props) => {
 
             </section>
        
-        <section class="testimonios">
+        <section className="testimonios">
             <h2>Testimonios</h2>
-            <div class="testimonio">
+            <div className="testimonio">
                 <p>Tenemos mas de 20 años de experiencia en el mercado y trabajamos únicamente a traves de abonos, lo
                     que
                     nos

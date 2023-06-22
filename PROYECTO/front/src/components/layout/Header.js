@@ -6,7 +6,7 @@ const Header = (props) => {
 
 
         <header>
-            <div class="holder">
+            <div className="holder">
                 <img src="images/logonet2.jpg" />
                 <h1>Soporte Tecnico de Redes</h1>
             </div>

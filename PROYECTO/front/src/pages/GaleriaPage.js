@@ -3,8 +3,8 @@ import React from 'react';
 const GaleriaPage = (props) => {
     return (
            
-        <main class="holder">
-        <div class="galeria">
+        <main className="holder">
+        <div className="galeria">
 <img src="images/galeria/antivir.jpg" alt="" />
 <img src="images/galeria/cableado.jpg" alt=""/>
 <img src="images/galeria/firewall.jpg" alt=""/>

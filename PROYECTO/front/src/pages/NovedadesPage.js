@@ -3,10 +3,10 @@ const NovedadesPage = (props) => {
     return (
 
 
-        <main class="holder">
+        <main className="holder">
 
             <h2>Novedades</h2>
-            <div class="novedades">
+            <div className="novedades">
                 <h3>Titulo Novedades</h3>
                 
             </div>
