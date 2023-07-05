@@ -20,6 +20,16 @@
 
 <body>
 
+
+        {{#unless conocido}}
+        
+       <script>window.location.replace("/login"); </script>
+
+         {{/unless}}
+        {{#if conocido}}
+        
+
+
     <header>
         <div class="holder">
             
@@ -82,5 +92,5 @@
     <footer>
         <p>Diseñado por Pablo Acevedo &copy; 2023</p>
     </footer>
-
+ {{/if}}
 </html>
